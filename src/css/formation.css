@@ -1,0 +1,30 @@
+/* FORMATION */
+
+#formation__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 2rem;
+    background-color: var(--light);
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px var(--light-dark-blue);
+}
+
+#formation__box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formation__box img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #formation__box img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "0": {
+        "name": "HTML",
+        "class": "devicon-html5-plain colored",
+        "type": "Web"
+    },
+    "1": {
+        "name": "CSS",
+        "class": "devicon-css3-plain colored",
+        "type": "Web"
+    },
+    "2": {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain colored",
+        "type": "Web"
+    },
+    "3": {
+        "name": "jQuery",
+        "class": "devicon-jquery-plain colored",
+        "type": "Web"
+    },
+    "4": {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain colored",
+        "type": "Web"
+    },
+    "5": {
+        "name": "Sass",
+        "class": "devicon-sass-original colored",
+        "type": "Web"
+    },
+    "6": {
+        "name": "React",
+        "class": "devicon-react-original colored",
+        "type": "Web"
+    },
+    "7": {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain colored",
+        "type": "BDD"
+    },
+    "8": {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain colored",
+        "type": "BDD"
+    },
+    "9": {
+        "name": "PHP",
+        "class": "devicon-php-plain colored",
+        "type": "Web"
+    },
+    "10": {
+        "name": "THREE.js",
+        "class": "devicon-threejs-original colored",
+        "type": "Web"
+    },
+    "11": {
+        "name": "GitLab",
+        "class": "devicon-gitlab-plain colored",
+        "type": "Outils"
+    },
+    "12": {
+        "name": "GitHub",
+        "class": "devicon-github-plain colored",
+        "type": "Outils"
+    },
+    "13": {
+        "name": "Apache",
+        "class": "devicon-apache-plain colored",
+        "type": "Outils"
+    },
+    "14": {
+        "name": "Vue.js",
+        "class": "devicon-vuejs-plain colored",
+        "type": "Web"
+    },
+    "15": {
+        "name": "Java",
+        "class": "devicon-java-plain colored",
+        "type": "Autres"
+    },
+    "16": {
+        "name": "C",
+        "class": "devicon-c-plain colored",
+        "type": "Autres"
+    },
+    "17": {
+        "name": "Linux",
+        "class": "devicon-linux-plain colored",
+        "type": "Outils"
+    },
+    "18": {
+        "name": "Windows",
+        "class": "devicon-windows8-original colored",
+        "type": "Outils"
+    },
+    "19": {
+        "name": "CodeIgniter",
+        "class": "devicon-codeigniter-plain colored",
+        "type": "Web"
+    },
+    "20": {
+        "name": "Android",
+        "class": "devicon-android-plain colored",
+        "type": "Smartphone"
+    },
+    "21": {
+        "name": "Flutter",
+        "class": "devicon-flutter-plain colored",
+        "type": "Smartphone"
+    },
+    "22": {
+        "name": "Dart",
+        "class": "devicon-dart-plain colored",
+        "type": "Smartphone"
+    },
+    "23": {
+        "name": "Python",
+        "class": "devicon-python-plain colored",
+        "type": "Autres"
+    },
+    "24": {
+        "name": "Docker",
+        "class": "devicon-docker-plain colored",
+        "type": "Outils"
+    },
+    "25": {
+        "name": "Bash",
+        "class": "devicon-bash-plain colored",
+        "type": "Outils"
+    },
+    "26": {
+        "name": "Visual Studio Code",
+        "class": "devicon-vscode-plain colored",
+        "type": "IDE"
+    },
+    "27": {
+        "name": "Android Studio",
+        "class": "devicon-androidstudio-plain colored",
+        "type": "IDE"
+    },
+    "28": {
+        "name": "IntelliJ IDEA",
+        "class": "devicon-intellij-plain colored",
+        "type": "IDE"
+    },
+    "29": {
+        "name": "PyCharm",
+        "class": "devicon-pycharm-plain colored",
+        "type": "IDE"
+    },
+    "30": {
+        "name": "WebStorm",
+        "class": "devicon-webstorm-plain colored",
+        "type": "IDE"
+    }
+}

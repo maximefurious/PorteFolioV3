@@ -1,0 +1,49 @@
+/* Profil */
+
+#profil__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    width: 80%;
+    padding: 2rem;
+    background-color: var(--light);
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px var(--light-dark-blue);
+}
+
+#profil__box h1 {
+    font-size: 1.5rem;
+}
+
+#profil__box>div:first-child {
+    width: 20%;
+    border-right: 1px solid var(--dark);
+}
+
+#profil__box>div:first-child a {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+#profil__box>p {
+    width: 50%;
+}
+
+#profil__box>div:last-child {
+    width: 20%;
+}
+
+#profil__box>div:last-child a {
+    display: flex;
+    flex-direction: column;
+}
+
+#profil__box>div:last-child a:hover {
+    color: var(--light-font-blue);
+}
+
+#profil__box>div:last-child img {
+    width: 200px;
+    border-radius: 10px;
+}

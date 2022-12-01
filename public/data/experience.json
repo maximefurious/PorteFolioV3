@@ -1,0 +1,22 @@
+{
+    "0": {
+        "name": "Intermarché",
+        "fonction": "Employé de mise en rayon",
+        "date": "Août 2021 - Sept 2021"
+    },
+    "1": {
+        "name": "McDonald's",
+        "fonction": "Employé polyvalent",
+        "date": "Sept 2021 - Oct 2021"
+    },
+    "2": {
+        "name": "Intermarché",
+        "fonction": "Employé de caisse",
+        "date": "Juil 2022 - Août 2022"
+    },
+    "3": {
+        "name": "Mobil-Inn",
+        "fonction": "Apprenti développeur FullStack / Android",
+        "date": "Sept 2022 - Aujourd'hui"
+    }
+}
