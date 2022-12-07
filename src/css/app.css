@@ -40,6 +40,15 @@ a:hover {
 
 /* MAIN */
 
+.container {
+    margin: 2em;
+    width: 90%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
 .container__all {
     display: flex;
     flex-direction: column;

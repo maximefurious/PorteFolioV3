@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import Formations from "./Components/Formations";
 import Header from "./Components/Header";
 import Interet from "./Components/Interet";
+import Mentions from "./Components/Mention";
 import Profil from "./Components/Profil";
 import Projets from "./Components/Projets";
 import Skills from "./Components/Skills";
@@ -17,6 +18,7 @@ function App() {
   const [projets, setProjets] = useState([]);
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
+  const [isMention, setIsMention] = useState(false);
 
   // stats for loading and error for data
   const [isLoading, setIsLoading] = useState(true);
@@ -69,6 +71,19 @@ function App() {
     }
   }, [isLoading, getData]);
 
+  const showMention = (bool) => {
+    setIsMention(bool);
+    const modal = document.getElementById("modalMention");
+    // if modal is null wait 1s and try again
+    if (modal === null) {
+      setTimeout(() => {
+        showMention(bool);
+      }, 1000);
+    } else {
+      modal.style.display = bool ? "flex" : "none";
+    }
+  };
+
 
   return (
     <div className="container__all">
@@ -90,7 +105,8 @@ function App() {
           <Formations />
           <Experience props={experience} />
           <Skills props={skills} />
-          <Footer />
+          {isMention && <Mentions showMention={showMention}/>}
+          <Footer showMention={showMention}/>
         </>
       )}
     </div>

@@ -1,7 +1,7 @@
 import "../css/footer.css";
 
 
-const Footer = () => {
+const Footer = ({ showMention}) => {
 
     const handleSubmit = (e) => {
         // get the form data out of state
@@ -37,7 +37,7 @@ const Footer = () => {
                                 <li><a href="#skills__box">Compétences</a></li>
                                 <li><a href="#CONTACT">Contact</a></li>
                                 <li><a href="#profil__box">À propos</a></li>
-                                <li><a href="./modules/mention.html">Mentions légales</a></li>
+                                <li onClick={() => showMention(true)}>Mentions légales</li>
                             </ul>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ const Footer = () => {
                 </div>
             </footer>
             <div className="footer__container__text notSelect">
-                <p>
-                    <a href="./modules/mention.html"> © 2022 - <span>{new Date().getFullYear()}</span> - Maxime BOUJEANT</a>
+                <p onClick={() => showMention(true)}>
+                    © 2022 - <span>{new Date().getFullYear()}</span> - Maxime BOUJEANT
                 </p>
             </div>
         </>
